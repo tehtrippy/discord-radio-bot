@@ -1,0 +1,25 @@
+{
+  "name": "discord-bot-template",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "yarn tsc",
+    "watch": "yarn tsc -w",
+    "start": "node dist/index.js",
+    "dev": "yarn nodemon"
+  },
+  "dependencies": {
+    "@discordjs/opus": "^0.5.0",
+    "@discordjs/voice": "^0.5.4",
+    "discord.js": "^13.0.0-dev.328501b.1626912223",
+    "dotenv": "^8.2.0",
+    "sodium": "^3.0.2",
+    "typescript": "^4.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.37",
+    "nodemon": "^2.0.7",
+    "ts-node": "^9.1.1"
+  }
+}
